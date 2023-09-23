@@ -37,7 +37,7 @@
               </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Create Account</a>
+                <a class="nav-link" href="signin.html">Create Account</a>
               </li>
           </ul>
           <form class="d-flex" role="search">
@@ -94,261 +94,219 @@
     
     <br>
     <br>
-
-    <div style="width: 100%;">
-    <div class="search-results-container">
+    <div class="search-results-container" style="width: 20%; float: left;">
         <div class="search-filters-container mobile-hidden">
-          
-            <div class="filters-header">
-            <div class="heading">Filter &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button type="button" class="btn btn-outline-secondary">Reset</button>
-            </div>
-          </div>
-  
-          
-  <div style="width: 40%; float:left">
             <div class="sub-filter-heading">
-              <div class="title">Destinations</div>
+                <div class="title">Destinations</div>
             </div>
             <div class="destination-filters filter">
+                <!-- Destination checkboxes go here -->
                 <div class="checkbox-filter">
-                  <label for="filter_destination_india" class="custom-checkbox">
-                    <input type="checkbox" name="destination_ids[]" id="filter_destination_india" value="1" class="js-search-filter" />
-                    <span class="custom-checkbox-icon"></span>
-                    India
-                  </label>
+                    <label for="filter_destination_india" class="custom-checkbox">
+                        <input type="checkbox" name="destination_ids[]" id="filter_destination_india" value="1" class="js-search-filter" />
+                        <span class="custom-checkbox-icon"></span>
+                        India
+                    </label>
                 </div>
                 <div class="checkbox-filter">
-                  <label for="filter_destination_jaipur" class="custom-checkbox">
-                    <input type="checkbox" name="destination_ids[]" id="filter_destination_jaipur" value="122" class="js-search-filter" />
-                    <span class="custom-checkbox-icon"></span>
-                    Jaipur
-                  </label>
+                    <label for="filter_destination_jaipur" class="custom-checkbox">
+                        <input type="checkbox" name="destination_ids[]" id="filter_destination_jaipur" value="122" class="js-search-filter" />
+                        <span class="custom-checkbox-icon"></span>
+                        Jaipur
+                    </label>
                 </div>
                 <div class="checkbox-filter">
-                  <label for="filter_destination_rajasthan" class="custom-checkbox">
-                    <input type="checkbox" name="destination_ids[]" id="filter_destination_rajasthan" value="43" class="js-search-filter"  />
-                    <span class="custom-checkbox-icon"></span>
-                    Rajasthan
-                  </label>
+                    <label for="filter_destination_rajasthan" class="custom-checkbox">
+                        <input type="checkbox" name="destination_ids[]" id="filter_destination_rajasthan" value="43" class="js-search-filter" />
+                        <span class="custom-checkbox-icon"></span>
+                        Rajasthan
+                    </label>
                 </div>
                 <div class="checkbox-filter">
-                  <label for="filter_destination_new delhi" class="custom-checkbox">
-                    <input type="checkbox" name="destination_ids[]" id="filter_destination_new delhi" value="237" class="js-search-filter" />
-                    <span class="custom-checkbox-icon"></span>
-                    New Delhi
-                  </label>
+                    <label for="filter_destination_new_delhi" class="custom-checkbox">
+                        <input type="checkbox" name="destination_ids[]" id="filter_destination_new_delhi" value="237" class="js-search-filter" />
+                        <span class="custom-checkbox-icon"></span>
+                        New Delhi
+                    </label>
                 </div>
                 <div class="checkbox-filter">
-                  <label for="filter_destination_udaipur" class="custom-checkbox">
-                    <input type="checkbox" name="destination_ids[]" id="filter_destination_udaipur" value="161" class="js-search-filter" />
-                    <span class="custom-checkbox-icon"></span>
-                    Udaipur
-                  </label>
+                    <label for="filter_destination_udaipur" class="custom-checkbox">
+                        <input type="checkbox" name="destination_ids[]" id="filter_destination_udaipur" value="161" class="js-search-filter" />
+                        <span class="custom-checkbox-icon"></span>
+                        Udaipur
+                    </label>
                 </div>
-              
-               
-                
             </div>
-  
-  
+    
             <div class="sub-filter-heading">
-              <div class="title">Categories</div>
+                <div class="title">Categories</div>
             </div>
-            
             <div class="categories-filters filter">
-                  <div class="checkbox-filter">
-                    <ul class="parent-name">
-                      <label for="filter_categories_multi-day-tour" class="custom-checkbox">
+                <!-- Category checkboxes go here -->
+                <div class="checkbox-filter">
+                    <label for="filter_categories_multi-day-tour" class="custom-checkbox">
                         <input type="checkbox" name="categories_ids[]" id="filter_categories_multi-day-tour" value="7157" class="js-search-filter" />
                         <span class="custom-checkbox-icon"></span>
                         Multi Day Tour
-                      </label>
-                            <li class="child_tag">
-                              <label for="filter_child_categories_biking_parent_categories_filtermulti-day-tour" class="custom-checkbox">
-                                <input type="checkbox" name="child_categories[]" id="filter_child_categories_biking_parent_categories_filtermulti-day-tour" value="{:child_id=&gt;6177, :parent_id=&gt;7157}" class="js-search-filter" />
-                                <span class="custom-checkbox-icon"></span>Biking
-                              </label>
-                            </li>
-                            <li class="child_tag">
-                              <label for="filter_child_categories_honeymoon-tours_parent_categories_filtermulti-day-tour" class="custom-checkbox">
-                                <input type="checkbox" name="child_categories[]" id="filter_child_categories_honeymoon-tours_parent_categories_filtermulti-day-tour" value="{:child_id=&gt;7080, :parent_id=&gt;7157}" class="js-search-filter" />
-                                <span class="custom-checkbox-icon"></span>Honeymoon Tours
-                              </label>
-                            </li>
-                            <li class="child_tag">
-                              <label for="filter_child_categories_private-tours_parent_categories_filtermulti-day-tour" class="custom-checkbox">
-                                <input type="checkbox" name="child_categories[]" id="filter_child_categories_private-tours_parent_categories_filtermulti-day-tour" value="{:child_id=&gt;7081, :parent_id=&gt;7157}" class="js-search-filter" />
-                                <span class="custom-checkbox-icon"></span>Private Tours
-                              </label>
-                            </li>
-                            <li class="child_tag">
-                              <label for="filter_child_categories_multi-adventure-tours_parent_categories_filtermulti-day-tour" class="custom-checkbox">
-                                <input type="checkbox" name="child_categories[]" id="filter_child_categories_multi-adventure-tours_parent_categories_filtermulti-day-tour" value="{:child_id=&gt;7161, :parent_id=&gt;7157}" class="js-search-filter" />
-                                <span class="custom-checkbox-icon"></span>Multi Adventure Tours
-                              </label>
-                            </li>
-                    </ul>
-                  </div>
-                  <div class="checkbox-filter">
-                    <ul class="parent-name">
-                      <label for="filter_categories_multi-day-tours" class="custom-checkbox">
-                        <input type="checkbox" name="categories_ids[]" id="filter_categories_multi-day-tours" value="7274" class="js-search-filter" />
+                    </label>
+                </div>
+                <!-- Add more category checkboxes here as needed -->
+
+            </div>
+    
+            <div class="sub-filter-heading">
+                <div class="title">Duration</div>
+            </div>
+            <div class="days-range-filter filter">
+                <!-- Duration checkboxes go here -->
+                <div class="checkbox-filter">
+                    <label for="filter_duration_0_2hours" class="custom-checkbox">
+                        <input type="checkbox" name="durations[]" id="filter_duration_0_2hours" value="0_2hours" class="js-search-filter" />
                         <span class="custom-checkbox-icon"></span>
-                        Multi Day Tours
-                      </label>
-                            <li class="child_tag">
-                              <label for="filter_child_categories_honeymoon-tours_parent_categories_filtermulti-day-tours" class="custom-checkbox">
-                                <input type="checkbox" name="child_categories[]" id="filter_child_categories_honeymoon-tours_parent_categories_filtermulti-day-tours" value="{:child_id=&gt;7080, :parent_id=&gt;7274}" class="js-search-filter" />
-                                <span class="custom-checkbox-icon"></span>Honeymoon Tours
-                              </label>
-                            </li>
-                            <li class="child_tag">
-                              <label for="filter_child_categories_private-tours_parent_categories_filtermulti-day-tours" class="custom-checkbox">
-                                <input type="checkbox" name="child_categories[]" id="filter_child_categories_private-tours_parent_categories_filtermulti-day-tours" value="{:child_id=&gt;7081, :parent_id=&gt;7274}" class="js-search-filter" />
-                                <span class="custom-checkbox-icon"></span>Private Tours
-                              </label>
-                            </li>
-                            <li class="child_tag">
-                              <label for="filter_child_categories_family-tours_parent_categories_filtermulti-day-tours" class="custom-checkbox">
-                                <input type="checkbox" name="child_categories[]" id="filter_child_categories_family-tours_parent_categories_filtermulti-day-tours" value="{:child_id=&gt;7092, :parent_id=&gt;7274}" class="js-search-filter" />
-                                <span class="custom-checkbox-icon"></span>Family Tours
-                              </label>
-                            </li>
-                            <li class="child_tag">
-                              <label for="filter_child_categories_luxury-tours_parent_categories_filtermulti-day-tours" class="custom-checkbox">
-                                <input type="checkbox" name="child_categories[]" id="filter_child_categories_luxury-tours_parent_categories_filtermulti-day-tours" value="{:child_id=&gt;7097, :parent_id=&gt;7274}" class="js-search-filter" />
-                                <span class="custom-checkbox-icon"></span>Luxury Tours
-                              </label>
-                            </li>
-                            <li class="child_tag">
-                              <label for="filter_child_categories_wildlife-tours_parent_categories_filtermulti-day-tours" class="custom-checkbox">
-                                <input type="checkbox" name="child_categories[]" id="filter_child_categories_wildlife-tours_parent_categories_filtermulti-day-tours" value="{:child_id=&gt;7345, :parent_id=&gt;7274}" class="js-search-filter" />
-                                <span class="custom-checkbox-icon"></span>Wildlife Tours
-                              </label>
-                            </li>
-                    </ul>
-                  </div>
+                        0-2 Hours
+                    </label>
+                    <br>
+                    <label for="filter_duration_0_2hours" class="custom-checkbox">
+                        <input type="checkbox" name="durations[]" id="filter_duration_0_2hours" value="0_2hours" class="js-search-filter" />
+                        <span class="custom-checkbox-icon"></span>
+                        0-6 Hours
+                    </label>
+                    <br>
+                    <label for="filter_duration_0_2hours" class="custom-checkbox">
+                        <input type="checkbox" name="durations[]" id="filter_duration_0_2hours" value="0_2hours" class="js-search-filter" />
+                        <span class="custom-checkbox-icon"></span>
+                        Full Day
+                    </label>
+                    <br>
+                    <label for="filter_duration_0_2hours" class="custom-checkbox">
+                        <input type="checkbox" name="durations[]" id="filter_duration_0_2hours" value="0_2hours" class="js-search-filter" />
+                        <span class="custom-checkbox-icon"></span>
+                        Multi Day
+                    </label>
+                </div>
             </div>
-  
-          <div class="sub-filter-heading">
-            <div class="title">Duration</div>
-          </div>
-          <div class="days-range-filter filter">
-              <div class="checkbox-filter">
-                <label for="filter_duration_0_2hours" class="custom-checkbox">
-                  <input type="checkbox" name="durations[]" id="filter_duration_0_2hours" value="0_2hours" class="js-search-filter" />
-                  <span class="custom-checkbox-icon"></span>
-                  0-2 Hours
-                </label>
-              </div>
-              <div class="checkbox-filter">
-                <label for="filter_duration_2_5hours" class="custom-checkbox">
-                  <input type="checkbox" name="durations[]" id="filter_duration_2_5hours" value="2_5hours" class="js-search-filter" />
-                  <span class="custom-checkbox-icon"></span>
-                  2-5 Hours
-                </label>
-              </div>
-              <div class="checkbox-filter">
-                <label for="filter_duration_full_day" class="custom-checkbox">
-                  <input type="checkbox" name="durations[]" id="filter_duration_full_day" value="full_day" class="js-search-filter" />
-                  <span class="custom-checkbox-icon"></span>
-                  Full Day
-                </label>
-              </div>
-              <div class="checkbox-filter">
-                <label for="filter_duration_multi_day" class="custom-checkbox">
-                  <input type="checkbox" name="durations[]" id="filter_duration_multi_day" value="multi_day" class="js-search-filter" />
-                  <span class="custom-checkbox-icon"></span>
-                  Multi Day
-                </label>
-              </div>
+    
+            <!-- Move the reset button here -->
+            <div class="filters-header" style="margin-top: 20px;">
+                <div class="heading">
+                    <button type="button" class="btn btn-outline-secondary" onclick="resetCheckboxes()">Reset</button>
+                </div>
             </div>
         </div>
-        
+    </div>
+
+
+
+
+
+
+
+
+
     
-
-
-<!--tours -->
-<div style="width: 60%; float:right">
-    <div class="base-block-body">
-        <div class="package-table-holder">
-          <table width="98%" class="package-table" cellpadding="0" cellspacing="0">
-            <thead>
-              <tr>
-                <th width="35%" align="left"><h3 class="package-table-title">Rajasthan Tour Packages</h3></th>
-                <th width="18%" align="center">Duration </th>
-                <th width="16%" align="center">Price</th>
-              </tr>
-            </thead>
-            <tbody>
-                <tr>
-                  <td>
-                    <span class="onclick-link package-table-package-title" data-href="/tours/bestseller-rajasthan-tour">Jaipur Jodhpur Jaisalmer | Bestseller Rajasthan Tour Package</span>
-                  </td>
-                  <td align="center">6 Days / 5 Nights</td>
-                  <td align="center">&#8377; 15199.0</td>
-                  <!-- <td class="ratings" align="center">4.26 star</td>
-                  <td>
-                    <span data-href="/tours/bestseller-rajasthan-tour" class="btn btn-primary-red onclick-link" title="View Details" rel="follow">View Details</span>
-                  </td>  -->
-                </tr>
-                <tr>
-                  <td>
-                    <span class="onclick-link package-table-package-title" data-href="/tours/udaipur-mount-abu-tour-package">4 Day Udaipur Mount Abu Tour Package</span>
-                  </td>
-                  <td align="center">4 Days / 3 Nights</td>
-                  <td align="center">&#8377; 15572.0</td>
-                  <!-- <td class="ratings" align="center">4.33 star</td>
-                  <td>
-                    <span data-href="/tours/udaipur-mount-abu-tour-package" class="btn btn-primary-red onclick-link" title="View Details" rel="follow">View Details</span>
-                  </td>  -->
-                </tr>
-                <tr>
-                  <td>
-                    <span class="onclick-link package-table-package-title" data-href="/tours/fall-in-love-with-rajasthan">Jaipur Udaipur Jodhpur Jaisalmer | Fall in Love with Rajasthan</span>
-                  </td>
-                  <td align="center">8 Days / 7 Nights</td>
-                  <td align="center">&#8377; 22550.0</td>
-                  <!-- <td class="ratings" align="center">4.29 star</td>
-                  <td>
-                    <span data-href="/tours/fall-in-love-with-rajasthan" class="btn btn-primary-red onclick-link" title="View Details" rel="follow">View Details</span>
-                  </td>  -->
-                </tr>
-                <tr>
-                  <td>
-                    <span class="onclick-link package-table-package-title" data-href="/tours/golden-triangle-tour--2">Explore Golden Triangle beyond Taj Mahal</span>
-                  </td>
-                  <td align="center">6 Days / 5 Nights</td>
-                  <td align="center">&#8377; 22424.0</td>
-                  <!-- <td class="ratings" align="center">4.7 star</td>
-                  <td>
-                    <span data-href="/tours/golden-triangle-tour--2" class="btn btn-primary-red onclick-link" title="View Details" rel="follow">View Details</span>
-                  </td>  -->
-                </tr>
-                <tr>
-                  <td>
-                    <span class="onclick-link package-table-package-title" data-href="/tours/jaipur-udaipur-sightseeing-tour-with-jodhpur">Jaipur Jodhpur Udaipur | Explore the Pink, Blue and White Cities</span>
-                  </td>
-                  <td align="center">6 Days / 5 Nights</td>
-                  <td align="center">&#8377; 16099.0</td>
-                  <!-- <td class="ratings" align="center">4.62 star</td>
-                  <td>
-                    <span data-href="/tours/jaipur-udaipur-sightseeing-tour-with-jodhpur" class="btn btn-primary-red onclick-link" title="View Details" rel="follow">View Details</span>
-                  </td>  -->
-                </tr>
-            </tbody>
-          </table>
+        <!-- Tours -->
+        <div style="width: 80%; height: 100%; float: right;">
+            <div class="base-block-body">
+                <div class="package-table-holder">
+                    <table width="100%" class="package-table" cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th width="45%" align="left"><h3 class="package-table-title">Rajasthan Tour Packages</h3></th>
+                                <th width="10%" align="center">&nbsp;&nbsp;&nbsp;Duration</th>
+                                <th width="20%" align="center" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="onclick-link package-table-package-title" data-href="/tours/bestseller-rajasthan-tour">Jaipur Jodhpur Jaisalmer | Bestseller Rajasthan Tour Package</span>
+                                </td>
+                                <td align="center">6 Days / 5 Nights</td>
+                                <td align="center">&#8377; 15,199.0</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="onclick-link package-table-package-title" data-href="/tours/udaipur-mount-abu-tour-package">4 Day Udaipur Mount Abu Tour Package</span>
+                                </td>
+                                <td align="center">4 Days / 3 Nights</td>
+                                <td align="center">&#8377; 15,572.0</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="onclick-link package-table-package-title" data-href="/tours/fall-in-love-with-rajasthan">Jaipur Udaipur Jodhpur Jaisalmer | Fall in Love with Rajasthan</span>
+                                </td>
+                                <td align="center">8 Days / 7 Nights</td>
+                                <td align="center">&#8377; 22,550.0</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="onclick-link package-table-package-title" data-href="/tours/golden-triangle-tour--2">Explore Golden Triangle beyond Taj Mahal</span>
+                                </td>
+                                <td align="center">6 Days / 5 Nights</td>
+                                <td align="center">&#8377; 22,424.0</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="onclick-link package-table-package-title" data-href="/tours/jaipur-udaipur-sightseeing-tour-with-jodhpur">Jaipur Jodhpur Udaipur | Explore the Pink, Blue and White Cities</span>
+                                </td>
+                                <td align="center">6 Days / 5 Nights</td>
+                                <td align="center">&#8377; 16,099.0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-
     
-
+    <div style="width: 80%; height: 100%; float: right;">
+        <div class="base-block-body">
+            <div class="package-table-holder">
+                <h3 class="package-table-title">Other Tour Packages</h3>
+                <table width="100%" class="package-table" cellpadding="0" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th width="45%" align="left">Package</th>
+                            <th width="10%" align="center">Duration</th>
+                            <th width="20%" align="center">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- New Tour Packages (Different cities) -->
+                        <tr>
+                            <td>
+                                <span class="onclick-link package-table-package-title" data-href="/tours/mumbai-to-goa-tour">Mumbai to Goa | Coastal Adventure</span>
+                            </td>
+                            <td align="center">7 Days / 6 Nights</td>
+                            <td align="center">&#8377; 18,999.0</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="onclick-link package-table-package-title" data-href="/tours/delhi-agra-jaipur-tour">Delhi Agra Jaipur | The Golden Triangle</span>
+                            </td>
+                            <td align="center">5 Days / 4 Nights</td>
+                            <td align="center">&#8377; 14,899.0</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="onclick-link package-table-package-title" data-href="/tours/bangalore-coorg-tour">Bangalore Coorg | Tranquil Escapes</span>
+                            </td>
+                            <td align="center">3 Days / 2 Nights</td>
+                            <td align="center">&#8377; 10,499.0</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="onclick-link package-table-package-title" data-href="/tours/varanasi-allahabad-tour">Varanasi Allahabad | Spiritual Journey</span>
+                            </td>
+                            <td align="center">4 Days / 3 Nights</td>
+                            <td align="center">&#8377; 12,599.0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
-</div>
-
-</div>
+    
 
 
 
