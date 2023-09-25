@@ -9,11 +9,11 @@
 </head>
 <body>
     <header>
-        <h1>Hotel Booking</h1>
+        <h1>Tour Booking</h1>
     </header>
     <main>
         <section id="booking-form">
-            <h2>Book a Room</h2>
+            <h2>Arrival Date-Departure Date</h2>
             <form action="payment.php" method="post" id="booking-form">
                 <label for="check-in-date">Check-In Date:</label>
                 <input type="date" id="check-in-date" name="check-in-date" required>
@@ -21,11 +21,11 @@
                 <label for="check-out-date">Check-Out Date:</label>
                 <input type="date" id="check-out-date" name="check-out-date" required>
                 
-                <label for="room-type">Room Type:</label>
+                <label for="room-type">Vehicle Type:</label>
                 <select id="room-type" name="room-type" required>
-                    <option value="single">Single</option>
-                    <option value="double">Double</option>
-                    <option value="suite">Suite</option>
+                    <option value="single">Sedan</option>
+                    <option value="double">SUV</option>
+                    <option value="suite">Traveller</option>
                 </select>
                 
                 <label for="guests">Number of Guests:</label>
@@ -36,7 +36,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Hotel Booking</p>
+        <p>&copy; 2023 Tour Booking</p>
     </footer>
 </body>
 </html>
